@@ -1,0 +1,51 @@
+Package: SWATtunR
+Type: Package
+Title: Soft Calibration, Hard Calibration, and Validation for SWAT+
+        Models
+Version: 0.3.13
+Date: 2026-06-11
+Authors@R: c(
+    person("Svajunas", "Plunge", , "svajunas.plunge@gmail.com", role = c("aut", "cre"),
+        comment = c(ORCID = '0000-0001-8897-3349')),
+    person("Christoph", "Schuerz", , "christoph.schuerz@ufz.de", role = "aut",
+        comment = c(ORCID = "0000-0002-7204-5828")),
+    person("Michael", "Strauch", , "michael.strauch@ufz.de", role = "aut", 
+        comment = c(ORCID = "0000-0002-9872-6904")),
+    person("Mikołaj", "Piniewski", , "mikolaj_piniewski@sggw.edu.pl", role = "aut", 
+        comment = c(ORCID = "0000-0001-7930-4549")))
+Maintainer: Svajunas Plunge <svajunas.plunge@gmail.com>
+Description: Comprehensive set of tools for soft and hard model calibration, validation steps, calculating performance metrics, plotting model output for user decision-making, and updating parameters in the model files.
+License: MIT + file LICENSE
+URL: https://biopsichas.github.io/SWATtunR,
+        https://github.com/biopsichas/SWATtunR
+BugReports: https://github.com/biopsichas/SWATtunR/issues
+Depends: R (>= 4.2.0)
+Imports: data.table, dygraphs, dplyr, gridExtra, ggplot2, hydroGOF,
+        lhs, lubridate, tibble, tidyr, tidyselect, purrr, patchwork,
+        readr, rstudioapi, scales, stats, stringr, units, xts
+Suggests: knitr, testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: SWATtunR
+RemoteUsername: biopsichas
+RemoteRef: HEAD
+RemoteSha: a5542265eba539fdc4177466f582dd00091d6018
+GithubRepo: SWATtunR
+GithubUsername: biopsichas
+GithubRef: HEAD
+GithubSHA1: a5542265eba539fdc4177466f582dd00091d6018
+NeedsCompilation: no
+Packaged: 2026-06-12 10:31:49 UTC; Svajunas
+Author: Svajunas Plunge [aut, cre] (ORCID:
+    <https://orcid.org/0000-0001-8897-3349>),
+  Christoph Schuerz [aut] (ORCID:
+    <https://orcid.org/0000-0002-7204-5828>),
+  Michael Strauch [aut] (ORCID: <https://orcid.org/0000-0002-9872-6904>),
+  Mikołaj Piniewski [aut] (ORCID:
+    <https://orcid.org/0000-0001-7930-4549>)
+Built: R 4.5.1; ; 2026-06-12 10:31:51 UTC; windows

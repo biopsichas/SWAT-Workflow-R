@@ -1,0 +1,40 @@
+Package: SWATdoctR
+Type: Package
+Title: Finding the right diagnoses and treatments for SWAT+ models
+Version: 0.1.27
+Authors@R: c(
+    person("Christoph", "Schuerz", , "christoph.schuerz@ufz.de", role = c("aut"),
+        comment = c(ORCID = "0000-0002-7204-5828")),
+    person("Svajunas", "Plunge", , "svajunas.plunge@gmail.com", role = c("aut", "cre"),
+        comment = c(ORCID = '0000-0001-8897-3349')))
+Maintainer: Svajunas Plunge <svajunas_plunge@sggw.edu.pl>
+Description: A collection of functions for verification and evaluation of SWAT+ model setups. 
+License: MIT + file LICENSE
+URL: https://biopsichas.github.io/SWATdoctR,
+        https://github.com/biopsichas/SWATdoctR
+BugReports: https://github.com/biopsichas/SWATdoctR/issues
+Depends: R (>= 4.2.0)
+Imports: data.table, dplyr, ggplot2, ggrepel, grDevices, lubridate,
+        patchwork, png, processx, purrr, readr, stats, stringr, tibble,
+        tidyr, tidyselect, plotly
+Suggests: datasets,
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: SWATdoctR
+RemoteUsername: biopsichas
+RemoteRef: HEAD
+RemoteSha: 4b1aee0988e63f9678b23cd6e648f89bce34ef14
+GithubRepo: SWATdoctR
+GithubUsername: biopsichas
+GithubRef: HEAD
+GithubSHA1: 4b1aee0988e63f9678b23cd6e648f89bce34ef14
+NeedsCompilation: no
+Packaged: 2026-05-15 06:43:53 UTC; Gram
+Author: Christoph Schuerz [aut] (ORCID:
+    <https://orcid.org/0000-0002-7204-5828>),
+  Svajunas Plunge [aut, cre] (ORCID:
+    <https://orcid.org/0000-0001-8897-3349>)
+Built: R 4.5.1; ; 2026-05-15 06:43:55 UTC; windows

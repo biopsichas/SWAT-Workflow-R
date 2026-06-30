@@ -1,0 +1,31 @@
+Package: SWATreadR
+Type: Package
+Title: Read and write SWAT+ input and output files.
+Version: 0.1.0.9010
+Authors@R: 
+    person("Christoph", "Schürz", , "c.schuerz@posteo.org", 
+           role = c("aut", "cre"), 
+           comment = c(ORCID = '0000-0002-7204-5828'))
+Maintainer: Christoph Schürz <c.schuerz@posteo.org>
+Description: `SWATreadR` consists of two main functions; `read_swat` to read any
+    SWAT+ input or output file and 'write_swat` to write any SWAT+ input file.
+License: GPL (>= 3)
+Encoding: UTF-8
+Imports: data.table (>= 1.14.6), dplyr (>= 1.1.4), purrr (>= 1.0.2),
+        stringr (>= 1.5.0), tibble (>= 3.2.1), tidyselect (>= 1.2.0)
+RoxygenNote: 7.2.3
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: SWATreadR
+RemoteUsername: chrisschuerz
+RemoteRef: HEAD
+RemoteSha: f6a11c8ce7cda0ce1d4e083f43a4d963ffb9253a
+GithubRepo: SWATreadR
+GithubUsername: chrisschuerz
+GithubRef: HEAD
+GithubSHA1: f6a11c8ce7cda0ce1d4e083f43a4d963ffb9253a
+NeedsCompilation: no
+Packaged: 2025-11-04 12:13:24 UTC; Gram
+Author: Christoph Schürz [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-7204-5828>)
+Built: R 4.5.1; ; 2025-11-04 12:13:25 UTC; windows

@@ -1,0 +1,38 @@
+Package: SWATprepR
+Type: Package
+Title: SWAT+ input data preparation tool
+Version: 1.0.13
+Date: 2025-11-13
+Author: c(person("Svajunas", "Plunge",
+             email = "svajunas.plunge@gmail.com",
+             role = c("aut", "cre"),
+             comment = c(ORCID = '0000-0001-8897-3349')))
+Maintainer: Svajunas Plunge <svajunas.plunge@gmail.com>
+Description: Tool to help with SWAT+ model users with input data preparation. 
+License: MIT + file LICENSE
+URL: https://github.com/biopsichas/SWATprepR
+BugReports: https://github.com/biopsichas/SWATprepR/issues
+Depends: R (>= 4.2.0)
+Imports: DBI, dplyr, ggplot2, leaflet, lubridate, methods, plotly,
+        purrr, RColorBrewer, readr, readxl, RSQLite, sf, stringr,
+        tibble, tidyr, utils, vroom, zoo
+Suggests: devtools, diffr, elevatr, euptf2, ggpmisc, gstat, knitr,
+        leafpop, mapview, openxlsx, raster, rmarkdown, RNetCDF, sp,
+        stars, tidyverse
+VignetteBuilder: knitr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: SWATprepR
+RemoteUsername: biopsichas
+RemoteRef: HEAD
+RemoteSha: 5b25cd682226de1b9a989cd4c7dc2fec5ab343dd
+GithubRepo: SWATprepR
+GithubUsername: biopsichas
+GithubRef: HEAD
+GithubSHA1: 5b25cd682226de1b9a989cd4c7dc2fec5ab343dd
+NeedsCompilation: no
+Packaged: 2026-05-15 06:43:01 UTC; Gram
+Built: R 4.5.1; ; 2026-05-15 06:43:08 UTC; windows
