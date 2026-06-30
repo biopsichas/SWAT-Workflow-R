@@ -5,7 +5,7 @@ echo Wiping cached session states and temporary files
 echo ----------------------------------------------------------------------
 
 :: 1. Define the specific target paths
-set "TARGET_DIR=%~dp0Mini_setup_CREATE\5_NBS\1_Managment_scenario\1_Statusquo\FarmR_project"
+set "TARGET_DIR=%~dp0_Workflow\5_NBS\1_Managment_scenario\1_Statusquo\FarmR_project"
 set "PORTABLE_RSTUDIO=%~dp0RStudio-Portable\rstudio.exe"
 set "PORTABLE_R_EXE=%~dp0R-Portable\bin\x64\R.exe"
 set "RENV_LIB_DIR=%~dp0renv\library"
