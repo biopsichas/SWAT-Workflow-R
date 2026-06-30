@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+# MkDocs local build output
+site/
+.cache/
+.venv/
+[Tt]emp*
+*plots.pdf
+**/backup/
+**/simulation/
